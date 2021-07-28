@@ -177,5 +177,5 @@ fn roundtrip(fn_name: String, ssa_txt: &str) {
     let parsed = super::parse_il(ssa_txt, REGISTER_FILE.clone());
     let mut emitted = String::new();
     ir_writer::emit_il(&mut emitted, Some(fn_name), &parsed).unwrap();
-    assert_eq!(ssa_txt, emitted);
+    pretty_assertions::assert_eq!(ssa_txt, emitted);
 }

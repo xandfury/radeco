@@ -3,7 +3,7 @@ use petgraph::algo;
 use petgraph::prelude::{Outgoing, StableDiGraph};
 use petgraph::visit::IntoEdgeReferences;
 
-use quickcheck::TestResult;
+use quickcheck::{quickcheck, TestResult};
 use std::collections::HashMap;
 use std::hash::Hash;
 use std::iter::FromIterator;

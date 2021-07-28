@@ -29,6 +29,7 @@ env_logger = { version = "0.7", optional = true }
 [dependencies.r2pipe]
 # path = "../r2pipe.rs"
 git = "https://github.com/radareorg/r2pipe.rs"
+features = ["http"]
 
 [dependencies.r2api]
 git = "https://github.com/radare/radare2-r2pipe-api"
