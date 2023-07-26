@@ -10,7 +10,7 @@ use libsmt::logics::qf_abv;
 use libsmt::theories::bitvec::OpCodes::*;
 use libsmt::theories::core::OpCodes::*;
 
-use r2api::structs::Endian;
+use r2papi::structs::Endian;
 
 use crate::memory::memory::Memory;
 use crate::utils::utils::simplify_constant;
@@ -274,7 +274,7 @@ mod test {
         use libsmt::theories::bitvec::OpCodes::Const;
         use libsmt::theories::core::OpCodes::*;
         use libsmt::logics::qf_abv;
-        use r2api::structs::Endian;
+        use r2papi::structs::Endian;
         use super::{SegMem, Memory};
 
         let mut z3: Z3 = Default::default();

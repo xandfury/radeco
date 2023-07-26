@@ -19,7 +19,7 @@ use crate::middle::ir;
 
 use crate::middle::ssa::ssa_traits::ValueInfo;
 
-use r2api::structs::{LCCInfo, LRegInfo};
+use r2papi::structs::{LCCInfo, LRegInfo};
 use std::cmp::Ordering;
 use std::collections::HashMap;
 use std::convert::From;

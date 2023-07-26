@@ -36,5 +36,5 @@ path = "../esil-rs"
 [dependencies.r2pipe]
 git = "https://github.com/radareorg/r2pipe.rs"
 
-[dependencies.r2api]
+[dependencies.r2papi]
 git = "https://github.com/radare/radare2-r2pipe-api"

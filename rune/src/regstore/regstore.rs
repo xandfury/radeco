@@ -1,7 +1,7 @@
 
 use libsmt::backends::smtlib2::{SMTLib2};
 use libsmt::logics::qf_abv;
-use r2api::structs::LRegInfo;
+use r2papi::structs::LRegInfo;
 
 use std::fmt::Debug;
 

@@ -2,13 +2,13 @@
 
 //#[macro_use] extern crate radeco_lib;
 //extern crate r2pipe;
-//extern crate r2api;
+//extern crate r2papi;
 //extern crate serde_json;
 
 //use std::fs::File;
 //use std::io::prelude::*;
 
-//use r2api::structs::{LFunctionInfo, LRegInfo};
+//use r2papi::structs::{LFunctionInfo, LRegInfo};
 
 //use radeco_lib::frontend::ssaconstructor::SSAConstruct;
 //use radeco_lib::middle::ssa::ssastorage::SSAStorage;

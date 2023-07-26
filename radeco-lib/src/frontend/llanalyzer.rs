@@ -5,7 +5,7 @@ use crate::middle::ir::MOpcode;
 use crate::middle::ssa::ssa_traits::{NodeType, SSAWalk, SSA};
 use petgraph::graph::NodeIndex;
 use petgraph::Direction;
-use r2api::structs::FunctionInfo;
+use r2papi::structs::FunctionInfo;
 
 use std::collections::HashMap;
 /// Converts call graph information from `Source`, represented in FunctionInfo,

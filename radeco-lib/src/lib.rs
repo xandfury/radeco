@@ -66,7 +66,7 @@ extern crate log;
 #[cfg(feature = "trace_log")]
 extern crate env_logger;
 
-extern crate r2api;
+extern crate r2papi;
 extern crate r2pipe;
 
 extern crate esil;

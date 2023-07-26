@@ -12,8 +12,8 @@ use rustc_serialize::{Decodable};
 use rustc_serialize::json;
 
 use r2pipe::r2::R2;
-use r2api::structs::LOpInfo;
-use r2api::api_trait::R2Api;
+use r2papi::structs::LOpInfo;
+use r2papi::api_trait::R2Api;
 
 pub trait InstructionStream {
     type Output: Debug + Clone;

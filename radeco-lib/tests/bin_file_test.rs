@@ -2,7 +2,7 @@
 
 //extern crate radeco_lib;
 //extern crate r2pipe;
-//extern crate r2api;
+//extern crate r2papi;
 //extern crate serde_json;
 //extern crate petgraph;
 

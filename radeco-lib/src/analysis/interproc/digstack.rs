@@ -274,7 +274,7 @@ fn generic_frontward_analysis(
 #[cfg(test)]
 mod test {
     use super::*;
-    use r2api::structs::LFunctionInfo;
+    use r2papi::structs::LFunctionInfo;
     use serde_json;
     use std::fs::File;
     use std::io::prelude::*;

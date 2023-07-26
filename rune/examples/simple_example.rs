@@ -1,13 +1,13 @@
 extern crate rune;
 extern crate libsmt;
 extern crate r2pipe;
-extern crate r2api;
+extern crate r2papi;
 
 use std::collections::HashMap;
 
 use r2pipe::r2::R2;
 
-use r2api::api_trait::R2Api;
+use r2papi::api_trait::R2Api;
 
 use rune::explorer::directed::DirectedExplorer;
 use rune::explorer::explorer::PathExplorer;

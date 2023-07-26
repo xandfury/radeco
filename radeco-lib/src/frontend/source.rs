@@ -9,8 +9,8 @@ use std::process;
 
 use serde_json;
 
-use r2api::api_trait::R2Api;
-use r2api::structs::{FunctionInfo, LFlagInfo, LOpInfo, LRegInfo, LSectionInfo, LStringInfo};
+use r2papi::api_trait::R2Api;
+use r2papi::structs::{FunctionInfo, LFlagInfo, LOpInfo, LRegInfo, LSectionInfo, LStringInfo};
 use r2pipe::r2::R2;
 
 pub trait Source {

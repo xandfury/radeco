@@ -1,5 +1,5 @@
 //! Defines traits which describe a RegisterFile
-use r2api::structs::LRegInfo;
+use r2papi::structs::LRegInfo;
 use std::collections::HashMap;
 use crate::utils::*;
 

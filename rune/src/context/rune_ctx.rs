@@ -244,7 +244,7 @@ mod test {
     use crate::memory::seg_mem::SegMem;
     use crate::regstore::regfile::RuneRegFile;
 
-    use r2api::structs::Endian;
+    use r2papi::structs::Endian;
 
     // #[test]
     fn testing_memory_my_dude() {

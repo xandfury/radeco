@@ -4,7 +4,7 @@ use libsmt::backends::smtlib2::{SMTLib2};
 use libsmt::backends::backend::SMTBackend;
 use libsmt::logics::qf_abv;
 use libsmt::theories::{array_ex, bitvec, core};
-use r2api::structs::Endian;
+use r2papi::structs::Endian;
 
 use crate::memory::memory::Memory;
 

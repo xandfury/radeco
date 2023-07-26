@@ -23,7 +23,7 @@ use crate::middle::regfile::SubRegisterFile;
 use crate::middle::ssa::graph_traits::Graph;
 use crate::middle::ssa::ssa_traits::{SSAExtra, SSAMod, ValueInfo};
 
-use r2api::structs::{LOpInfo, LRegInfo};
+use r2papi::structs::{LOpInfo, LRegInfo};
 
 // use regex::Regex;
 use std::borrow::Cow;
@@ -928,7 +928,7 @@ mod test {
     use crate::analysis::sccp::SCCP;
     use crate::middle::dot;
     use crate::middle::ir_writer;
-    use r2api::structs::{LFunctionInfo, LRegInfo};
+    use r2papi::structs::{LFunctionInfo, LRegInfo};
     use serde_json;
     use std::fs::File;
     use std::io::prelude::*;

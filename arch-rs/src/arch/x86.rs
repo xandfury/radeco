@@ -1,4 +1,4 @@
-use r2api::structs::Endian;
+use r2papi::structs::Endian;
 
 use crate::arch::arch::*;
 use crate::cc::calling_convention::*;

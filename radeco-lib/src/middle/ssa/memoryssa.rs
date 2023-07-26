@@ -21,7 +21,7 @@ use petgraph::EdgeDirection;
 use std::collections::{HashMap, HashSet};
 use std::marker::PhantomData;
 
-use r2api::structs::LVarInfo;
+use r2papi::structs::LVarInfo;
 
 use super::ssa_traits::NodeType;
 use super::ssa_traits::{SSAMod, SSAWalk, SSA};
@@ -139,8 +139,8 @@ where
     }
 
     // Gather variables in following rules:
-    //      local: from r2api to get local;
-    //      global:from r2api to get datafers;
+    //      local: from r2papi to get local;
+    //      global:from r2papi to get datafers;
     //      extra: for every call statement generate an extra variable.
     /// Use information from RadecoFunctoin to gather basic variables' information.
     pub fn gather_variables(

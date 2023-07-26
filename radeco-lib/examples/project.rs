@@ -1,10 +1,10 @@
 // Examples to illustrate project loading
 
-extern crate r2api;
+extern crate r2papi;
 extern crate r2pipe;
 extern crate radeco_lib;
 
-use r2api::api_trait::R2Api;
+use r2papi::api_trait::R2Api;
 use r2pipe::R2;
 use radeco_lib::frontend::radeco_containers::{FunctionLoader, ModuleLoader, ProjectLoader};
 use radeco_lib::frontend::radeco_source::Source;

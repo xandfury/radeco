@@ -18,7 +18,7 @@ use crate::frontend::radeco_containers::{CallContextInfo, RadecoFunction};
 use crate::middle::regfile::SubRegisterFile;
 use crate::middle::ssa::ssa_traits::{ValueType, SSA};
 use petgraph::graph::NodeIndex;
-use r2api::structs::LSectionInfo;
+use r2papi::structs::LSectionInfo;
 // XXX: This will move out sometime in the future
 pub use self::reference_marking_inter::{Eval, Propagate, Transfer};
 pub use self::reference_marking_intra::ReferenceMarker;

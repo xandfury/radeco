@@ -1,6 +1,6 @@
 //! Trait and struct implementations for rune symbolic engine
 
-use r2api::structs::LOpInfo;
+use r2papi::structs::LOpInfo;
 
 use crate::context::context::{Context, RegisterRead};
 use crate::explorer::explorer::PathExplorer;

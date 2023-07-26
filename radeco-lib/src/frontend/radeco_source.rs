@@ -10,8 +10,8 @@ use std::io::{Read, Write};
 use std::path::{Path, PathBuf};
 use std::rc::Rc;
 
-use r2api::api_trait::R2Api;
-use r2api::structs::{
+use r2papi::api_trait::R2Api;
+use r2papi::structs::{
     FunctionInfo, LCCInfo, LEntryInfo, LExportInfo, LFlagInfo, LFunctionInfo, LImportInfo, LOpInfo,
     LRegInfo, LRelocInfo, LSectionInfo, LStringInfo, LSymbolInfo, LVarInfo,
 };
@@ -38,7 +38,7 @@ impl<T: 'static + Error> From<T> for SourceErr {
 }
 
 // TODO: Split this up/compose this from more basic traits to avoid reimplementation
-// as currently this is a re-implementation of r2api
+// as currently this is a re-implementation of r2papi
 pub trait Source {
     fn functions(&self) -> Result<Vec<FunctionInfo>, SourceErr>;
     fn instructions_at(&self, _: u64) -> Result<Vec<LOpInfo>, SourceErr>;

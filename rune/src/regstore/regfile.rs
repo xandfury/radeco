@@ -3,7 +3,7 @@ use std::collections::HashMap;
 
 use crate::regstore::regstore::{RegStore, RegStoreAPI, RegEntry};
 
-use r2api::structs::LRegInfo;
+use r2papi::structs::LRegInfo;
 use libsmt::backends::smtlib2::{SMTLib2};
 use libsmt::logics::qf_abv;
 use libsmt::theories::bitvec;

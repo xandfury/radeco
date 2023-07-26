@@ -10,7 +10,7 @@
 extern crate petgraph;
 extern crate esil;
 extern crate r2pipe;
-extern crate r2api;
+extern crate r2papi;
 extern crate rustc_serialize;
 extern crate regex;
 extern crate libsmt;

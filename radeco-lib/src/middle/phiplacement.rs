@@ -16,7 +16,7 @@ use std::u64;
 use crate::middle::ir::{self, MAddress, MOpcode};
 use crate::middle::ssa::graph_traits::{ConditionInfo, EdgeInfo, Graph};
 use crate::middle::ssa::ssa_traits::{SSAExtra, SSAMod, ValueInfo};
-use crate::r2api::structs::LOpInfo;
+use crate::r2papi::structs::LOpInfo;
 
 use crate::middle::regfile::{RegisterId, SubRegisterFile};
 use crate::middle::ssa::ssa_traits::{NodeData, NodeType};

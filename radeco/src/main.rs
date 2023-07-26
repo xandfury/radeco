@@ -3,7 +3,7 @@
 extern crate env_logger;
 
 extern crate base64;
-extern crate r2api;
+extern crate r2papi;
 extern crate r2pipe;
 extern crate radeco_lib;
 extern crate rustyline;

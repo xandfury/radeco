@@ -681,7 +681,7 @@ mod test {
     use crate::middle::regfile::SubRegisterFile;
     use crate::middle::ssa::ssa_traits::{SSAWalk, SSA};
     use crate::middle::ssa::utils;
-    use r2api::structs::LRegInfo;
+    use r2papi::structs::LRegInfo;
     use serde_json;
     use std::collections::HashMap;
     use std::fs::File;

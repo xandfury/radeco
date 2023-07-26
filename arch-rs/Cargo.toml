@@ -6,7 +6,7 @@ edition = "2018"
 [dependencies]
 lazy_static = "1.4.0"
 
-[dependencies.r2api]
+[dependencies.r2papi]
 git = "https://github.com/radare/radare2-r2pipe-api"
 
 [dependencies.r2pipe]

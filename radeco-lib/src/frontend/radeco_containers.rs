@@ -43,8 +43,8 @@ use petgraph::Direction;
 
 use petgraph::graph::{Graph, NodeIndex};
 use petgraph::visit::EdgeRef;
-use r2api::api_trait::R2Api;
-use r2api::structs::{
+use r2papi::api_trait::R2Api;
+use r2papi::structs::{
     LCCInfo, LEntryInfo, LExportInfo, LOpInfo, LRelocInfo, LSectionInfo, LStringInfo, LSymbolInfo,
     LSymbolType, LVarInfo,
 };
@@ -68,7 +68,7 @@ pub mod loader_defaults {
     use super::FLResult;
     use super::{FunctionKind, RadecoFunction, RadecoModule};
     use crate::frontend::radeco_source::Source;
-    use r2api::structs::LSymbolType;
+    use r2papi::structs::LSymbolType;
     use std::borrow::Cow;
     use std::rc::Rc;
 

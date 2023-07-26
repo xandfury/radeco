@@ -12,7 +12,7 @@ use crate::middle::regfile::SubRegisterFile;
 use petgraph::graph::NodeIndex;
 use petgraph::visit::EdgeRef;
 use petgraph::Direction;
-use r2api::structs::LSectionInfo;
+use r2papi::structs::LSectionInfo;
 use std::collections::HashMap;
 // TODO: Remove this
 use std::fmt;

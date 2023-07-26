@@ -1,6 +1,6 @@
 //! Defines `Architecture` trait.
 
-use r2api::structs::Endian;
+use r2papi::structs::Endian;
 
 use crate::cc::calling_convention::*;
 use crate::regfile::regfile::*;

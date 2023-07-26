@@ -1,4 +1,4 @@
-use r2api::structs::LRegInfo;
+use r2papi::structs::LRegInfo;
 use std::collections::HashMap;
 use std::cmp::Ordering;
 

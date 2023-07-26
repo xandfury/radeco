@@ -27,7 +27,7 @@ use crate::middle::regfile::SubRegisterFile;
 use crate::middle::ssa::ssa_traits::{NodeType, SSAWalk, ValueType, SSA};
 use crate::middle::ssa::ssastorage::SSAStorage;
 use petgraph::graph::NodeIndex;
-use r2api::structs::LSectionInfo;
+use r2papi::structs::LSectionInfo;
 use std::collections::HashSet;
 use std::sync::Arc;
 
